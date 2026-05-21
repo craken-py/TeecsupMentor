@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MentorPro — Transforma tu Futuro</title>
+
+    <!-- Fuentes & Iconos -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <a href="#" class="logo">
+          <img src="img/image.png" alt="MentorPro" class="logo-img" />
+          Tecsup Mentor
+        </a>
+        <div class="nav-links" id="navLinks">
+          <a href="#servicios">Servicios</a>
+          <a href="#como-funciona">Cómo Funciona</a>
+          <a href="#mentores">Mentores</a>
+          <a href="#precios">Precios</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contacto" class="nav-cta">Empezar Ahora</a>
+        </div>
+        <div class="mobile-toggle" id="mobileToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <div class="nav-overlay" id="navOverlay"></div>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge">
+              <i class="fas fa-circle"></i> Plataforma #1 en Mentoría
+            </div>
+            <h1>
+              Impulsa tu carrera con
+              <span class="highlight">mentores expertos</span>
+            </h1>
+            <p>
+              Conectamos profesionales ambiciosos con mentores de clase mundial.
+              Acelera tu crecimiento personal y profesional con guidance
+              personalizada.
+            </p>
+            <div class="hero-buttons">
+              <a href="#contacto" class="btn btn-primary"
+                >Comenzar Ahora <i class="fas fa-arrow-right"></i
+              ></a>
+              <a href="#como-funciona" class="btn btn-secondary"
+                ><i class="fas fa-play-circle"></i> Ver Cómo Funciona</a
+              >
+            </div>
+            <div class="hero-stats">
+              <div class="stat">
+                <h3><span>2,500+</span></h3>
+                <p>Mentores Activos</p>
+              </div>
+              <div class="stat">
+                <h3><span>50K+</span></h3>
+                <p>Sesiones Completadas</p>
+              </div>
+              <div class="stat">
+                <h3><span>98%</span></h3>
+                <p>Satisfacción</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-card">
+              <div class="hero-card-header">
+                <div class="hero-avatar">MR</div>
+                <div class="hero-card-info">
+                  <h4>María Rodríguez</h4>
+                  <p>Senior UX Designer en Google</p>
+                </div>
+              </div>
+              <div class="hero-card-progress">
+                <div class="progress-header">
+                  <span>Progreso del Programa</span>
+                  <strong>78%</strong>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" id="progressFill"></div>
+                </div>
+              </div>
+              <div class="hero-card-skills">
+                <span class="skill-tag">Liderazgo</span>
+                <span class="skill-tag">UX Design</span>
+                <span class="skill-tag">Estrategia</span>
+                <span class="skill-tag">Gestión</span>
+              </div>
+              <div class="floating-card floating-card-1">
+                <div class="icon"><i class="fas fa-check"></i></div>
+                <div class="text">
+                  Meta Completada<span>Promoción obtenida ✨</span>
+                </div>
+              </div>
+              <div class="floating-card floating-card-2">
+                <div class="stars">
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i><i class="fas fa-star"></i
+                  ><i class="fas fa-star"></i>
+                </div>
+                <div class="text">
+                  "Increíble experiencia"<span>— Carlos M.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="servicios">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="section-badge">
+            <i class="fas fa-sparkles"></i> Nuestros Servicios
+          </div>
+          <h2>Todo lo que necesitas para crecer</h2>
+          <p>
+            Ofrecemos programas de mentoría diseñados para cada etapa de tu
+            carrera profesional.
+          </p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon green">
+              <i class="fas fa-user-tie"></i>
+            </div>
+            <h3>Mentoría 1:1</h3>
+            <p>
+              Sesiones personalizadas con mentores expertos en tu industria.
+              Guidance adaptado a tus objetivos específicos.
+            </p>
+            <a href="#" class="service-link"
+              >Saber más <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon blue"><i class="fas fa-users"></i></div>
+            <h3>Mentoría Grupal</h3>
+            <p>
+              Aprende junto a otros profesionales en sesiones grupales dinámicas
+              con discusión y networking.
+            </p>
+            <a href="#" class="service-link"
+              >Saber más <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon amber">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <h3>Preparación Laboral</h3>
+            <p>
+              Simulacros de entrevistas, revisión de CV y estrategias de
+              negociación salarial con expertos en RRHH.
+            </p>
+            <a href="#" class="service-link"
+              >Saber más <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon green">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Plan de Carrera</h3>
+            <p>
+              Diseña tu roadmap profesional con mentores que han logrado lo que
+              tú aspiras alcanzar.
+            </p>
+            <a href="#" class="service-link"
+              >Saber más <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon blue">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3>Skills Técnicas</h3>
+            <p>
+              Mentoría en programación, diseño, marketing digital y otras
+              habilidades técnicas demandadas.
+            </p>
+            <a href="#" class="service-link"
+              >Saber más <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="service-card animate-on-scroll">
+            <div class="service-icon red"><i class="fas fa-lightbulb"></i></div>
+            <h3>Emprendimiento</h3>
+            <p>
+              Guidance para emprendedores desde validación de ideas hasta
+              escalamiento de tu negocio.
+            </p>
+            <a href="#" class="service-link"
+              >Saber más <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="how-it-works" id="como-funciona">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="section-badge">
+            <i class="fas fa-route"></i> Proceso Simple
+          </div>
+          <h2>¿Cómo funciona?</h2>
+          <p>
+            En solo 4 pasos estarás en camino de alcanzar tus metas
+            profesionales.
+          </p>
+        </div>
+        <div class="steps-grid">
+          <div class="step-card animate-on-scroll">
+            <div class="step-number">1</div>
+            <h3>Crea tu Perfil</h3>
+            <p>
+              Regístrate y comparte tus objetivos, experiencia y áreas de
+              interés.
+            </p>
+          </div>
+          <div class="step-card animate-on-scroll">
+            <div class="step-number">2</div>
+            <h3>Elige tu Mentor</h3>
+            <p>
+              Explora perfiles de mentores verificados y selecciona el ideal
+              para ti.
+            </p>
+          </div>
+          <div class="step-card animate-on-scroll">
+            <div class="step-number">3</div>
+            <h3>Agenda Sesiones</h3>
+            <p>
+              Programa sesiones según tu disponibilidad por videollamada o chat.
+            </p>
+          </div>
+          <div class="step-card animate-on-scroll">
+            <div class="step-number">4</div>
+            <h3>Alcanza tus Metas</h3>
+            <p>
+              Con guidance continuo, transforma tu carrera y supera tus
+              objetivos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENTORS -->
+    <section class="mentors" id="mentores">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="section-badge">
+            <i class="fas fa-star"></i> Mentores Destacados
+          </div>
+          <h2>Aprende de los mejores</h2>
+          <p>
+            Nuestros mentores son profesionales con años de experiencia en las
+            mejores empresas del mundo.
+          </p>
+        </div>
+        <div class="mentors-grid">
+          <div class="mentor-card animate-on-scroll">
+            <div class="mentor-image">
+              <div class="avatar-placeholder"><i class="fas fa-user"></i></div>
+            </div>
+            <div class="mentor-info">
+              <h3>Ana García</h3>
+              <p class="role">VP de Producto en Spotify</p>
+              <p>
+                15+ años liderando equipos de producto en startups y empresas
+                Fortune 500.
+              </p>
+              <div class="mentor-social">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fas fa-globe"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="mentor-card animate-on-scroll">
+            <div class="mentor-image">
+              <div class="avatar-placeholder"><i class="fas fa-user"></i></div>
+            </div>
+            <div class="mentor-info">
+              <h3>Carlos Méndez</h3>
+              <p class="role">CTO en Startup AI</p>
+              <p>
+                Experto en arquitectura de software y liderazgo técnico con 12
+                años de experiencia.
+              </p>
+              <div class="mentor-social">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="mentor-card animate-on-scroll">
+            <div class="mentor-image">
+              <div class="avatar-placeholder"><i class="fas fa-user"></i></div>
+            </div>
+            <div class="mentor-info">
+              <h3>Laura Torres</h3>
+              <p class="role">Directora de Marketing en Meta</p>
+              <p>
+                Especialista en growth marketing y estrategia digital con
+                resultados comprobados.
+              </p>
+              <div class="mentor-social">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fas fa-globe"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="mentor-card animate-on-scroll">
+            <div class="mentor-image">
+              <div class="avatar-placeholder"><i class="fas fa-user"></i></div>
+            </div>
+            <div class="mentor-info">
+              <h3>Diego Ramírez</h3>
+              <p class="role">Fundador & CEO en TechLab</p>
+              <p>
+                Emprendedor serial con 3 exits exitosos y mentor de +200
+                startups en LATAM.
+              </p>
+              <div class="mentor-social">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fas fa-globe"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials" id="testimonios">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="section-badge">
+            <i class="fas fa-heart"></i> Testimonios
+          </div>
+          <h2>Lo que dicen nuestros usuarios</h2>
+          <p>
+            Miles de profesionales han transformado sus carreras con nuestra
+            plataforma.
+          </p>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card animate-on-scroll">
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+            </div>
+            <blockquote>
+              "Gracias a mi mentora conseguí un ascenso en solo 3 meses. La
+              mentoría personalizada cambió completamente mi perspectiva
+              profesional."
+            </blockquote>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">SC</div>
+              <div class="testimonial-author-info">
+                <h4>Sofía Castillo</h4>
+                <p>Product Manager en Microsoft</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card animate-on-scroll">
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+            </div>
+            <blockquote>
+              "La mejor inversión que he hecho en mi carrera. Mi mentor me ayudó
+              a negociar un aumento del 40% en mi salario actual."
+            </blockquote>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">JP</div>
+              <div class="testimonial-author-info">
+                <h4>Juan Pablo Herrera</h4>
+                <p>Senior Developer en Amazon</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card animate-on-scroll">
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+            </div>
+            <blockquote>
+              "Pasé de no saber por dónde empezar a lanzar mi propia startup en
+              6 meses. El guidance que recibí fue invaluable."
+            </blockquote>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">VM</div>
+              <div class="testimonial-author-info">
+                <h4>Valentina Morales</h4>
+                <p>CEO & Fundadora en DataFlow</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <!--
+    <section class="pricing" id="precios">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="section-badge"><i class="fas fa-tag"></i> Planes</div>
+          <h2>Elige tu plan ideal</h2>
+          <p>
+            Planes flexibles diseñados para adaptarse a tus necesidades y
+            presupuesto.
+          </p>
+        </div>
+        <div class="pricing-grid">
+          <div class="pricing-card animate-on-scroll">
+            <h3>Básico</h3>
+            <div class="price">$29<span>/mes</span></div>
+            <p class="price-desc">Perfecto para comenzar tu viaje</p>
+            <ul class="pricing-features">
+              <li>
+                <i class="fas fa-check-circle"></i> 2 sesiones de mentoría/mes
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i> Acceso a mentor básico
+              </li>
+              <li><i class="fas fa-check-circle"></i> Recursos y guías</li>
+              <li><i class="fas fa-check-circle"></i> Comunidad de mentees</li>
+              <li><i class="fas fa-check-circle"></i> Soporte por email</li>
+            </ul>
+            <a href="#contacto" class="btn btn-outline">Empezar Gratis</a>
+          </div>
+          <div class="pricing-card featured animate-on-scroll">
+            <div class="pricing-popular">Más Popular</div>
+            <h3>Profesional</h3>
+            <div class="price">$79<span>/mes</span></div>
+            <p class="price-desc">
+              Para profesionales serios sobre su crecimiento
+            </p>
+            <ul class="pricing-features">
+              <li>
+                <i class="fas fa-check-circle"></i> 6 sesiones de mentoría/mes
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i> Acceso a mentores senior
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i> Plan de carrera
+                personalizado
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i> Preparación para entrevistas
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i> Sesiones de networking
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i> Soporte prioritario 24/7
+              </li>
+            </ul>
+            <a href="#contacto" class="btn btn-primary"
+              >Empezar Ahora <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="pricing-card animate-on-scroll">
+            <h3>Enterprise</h3>
+            <div class="price">$199<span>/mes</span></div>
+            <p class="price-desc">Para equipos y organizaciones</p>
+            <ul class="pricing-features">
+              <li><i class="fas fa-check-circle"></i> Sesiones ilimitadas</li>
+              <li><i class="fas fa-check-circle"></i> Mentores C-level</li>
+              <li><i class="fas fa-check-circle"></i> Programas a medida</li>
+              <li><i class="fas fa-check-circle"></i> Dashboard de progreso</li>
+              <li><i class="fas fa-check-circle"></i> Eventos exclusivos</li>
+              <li>
+                <i class="fas fa-check-circle"></i> Account manager dedicado
+              </li>
+            </ul>
+            <a href="#contacto" class="btn btn-outline">Contactar Ventas</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <div class="section-badge">
+            <i class="fas fa-circle-question"></i> FAQ
+          </div>
+          <h2>Preguntas Frecuentes</h2>
+          <p>
+            Resolvemos tus dudas más comunes sobre nuestra plataforma de
+            mentoría.
+          </p>
+        </div>
+        <div class="faq-grid">
+          <div class="faq-item active">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              ¿Cómo se seleccionan los mentores?<i
+                class="fas fa-chevron-down"
+              ></i>
+            </div>
+            <div class="faq-answer" style="max-height: 200px">
+              <div class="faq-answer-inner">
+                Todos nuestros mentores pasan por un riguroso proceso de
+                selección que incluye verificación de experiencia profesional,
+                entrevistas y evaluación de habilidades de comunicación. Solo el
+                5% de los aplicantes son aceptados.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              ¿Puedo cambiar de mentor en cualquier momento?<i
+                class="fas fa-chevron-down"
+              ></i>
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                ¡Por supuesto! Entendemos que la química entre mentor y mentee
+                es fundamental. Puedes cambiar de mentor cuando lo desees sin
+                ningún costo adicional.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              ¿Las sesiones son por videollamada?<i
+                class="fas fa-chevron-down"
+              ></i>
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Sí, las sesiones se realizan a través de videollamada HD
+                integrada en nuestra plataforma. También ofrecemos opción de
+                chat y llamada de voz según tu preferencia.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              ¿Hay período de prueba gratuito?<i
+                class="fas fa-chevron-down"
+              ></i>
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Sí, ofrecemos 7 días de prueba gratuita en todos nuestros planes
+                para que puedas experimentar la plataforma antes de
+                comprometerte.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">
+              ¿Puedo cancelar mi suscripción cuando quiera?<i
+                class="fas fa-chevron-down"
+              ></i>
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Absolutamente. No hay contratos de permanencia. Puedes cancelar
+                tu suscripción en cualquier momento desde tu panel de
+                configuración.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" id="contacto">
+      <div class="container">
+        <div class="cta-box animate-on-scroll">
+          <h2>¿Listo para transformar tu carrera?</h2>
+          <p>
+            Únete a miles de profesionales que ya están alcanzando sus metas con
+            mentoría personalizada.
+          </p>
+          <div class="cta-buttons">
+            <a href="#" class="btn btn-primary"
+              >Comenzar Prueba Gratis <i class="fas fa-arrow-right"></i
+            ></a>
+            <a href="#" class="btn btn-secondary"
+              ><i class="fas fa-calendar"></i> Agendar Demo</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img src="img/image.png" alt="MentorPro" class="logo-img" />
+              MentorPro
+            </a>
+            <p>
+              Transformando carreras profesionales a través de mentoría
+              personalizada con expertos de clase mundial.
+            </p>
+            <div class="footer-social">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h4>Producto</h4>
+            <ul>
+              <li><a href="#">Mentoría 1:1</a></li>
+              <li><a href="#">Mentoría Grupal</a></li>
+              <li><a href="#">Para Empresas</a></li>
+              <li><a href="#">Precios</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Compañía</h4>
+            <ul>
+              <li><a href="#">Sobre Nosotros</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Carreras</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Soporte</h4>
+            <ul>
+              <li><a href="#">Centro de Ayuda</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Comunidad</a></li>
+              <li><a href="#">Estado del Servicio</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 MentorPro. Todos los derechos reservados.</p>
+          <div class="footer-bottom-links">
+            <a href="#">Privacidad</a>
+            <a href="#">Términos</a>
+            <a href="#">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SCROLL TO TOP -->
+    <button class="scroll-top" id="scrollTop">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
